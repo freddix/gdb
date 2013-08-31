@@ -1,11 +1,11 @@
 Summary:	A GNU source-level debugger for C, C++ and Fortran
 Name:		gdb
-Version:	7.6
+Version:	7.6.1
 Release:	1
 License:	GPL v3
 Group:		Development/Debuggers
 Source0:	http://ftp.gnu.org/gnu/gdb/%{name}-%{version}.tar.bz2
-# Source0-md5:	fda57170e4d11cdde74259ca575412a8
+# Source0-md5:	fbc4dab4181e6e9937075b43a4ce2732
 Patch1:		%{name}-pretty-print-by-default.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
